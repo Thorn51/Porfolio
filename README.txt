@@ -1,0 +1,1 @@
+This is my portfolio developed while studying in the Thinkful Fullstack Flex program.
