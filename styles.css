@@ -15,19 +15,30 @@
     padding: 0;
 }
 
+html {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
     line-height: 1.5rem;
 }
 
+/* Highlight Words in Orange */
+.highlight {
+    color: var(--orange-color);
+    font-weight: bold;
+}
+
+
 
 /* HERO Styling */
 
 .page-1-inner {
-    max-width: 960px;
+    width: 90%;
     margin: auto;
     overflow: hidden;
-    padding: 0 3rem;
 }
 
 .page-1 {
@@ -86,13 +97,13 @@ body {
 
 /* Page 2 */
 .page-2-heading {
-    min-height: 50px;
+    position: relative;
+    height: 10vh;
     text-align: center;
     font-size: 2rem;
     color: var(--baby-powder-color);
     background-color: var(--blue-color);
-    border-top: var(--orange-color) 1px solid;
-    border-bottom: var(--orange-color) 1px solid;
+    border-top: var(--grey-color) 2px inset;
     padding: 0.8rem 0rem 0.8rem 0rem;
 }
 
@@ -101,50 +112,89 @@ body {
     flex-direction: column;
     justify-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     overflow: hidden;
-    background-color: var(--blue-color);
+    background-color: var(--baby-powder-color);
+    border:  var(--grey-color) 4px inset;
 }
 
 .about-me {
     width: 95%;
-    height: 25%;
     margin-left: auto;
     margin-right: auto;
     margin-top: .5rem;
-    background-color: rgba(93, 115, 126, .2);
-    color: var(--baby-powder-color);
+    color: var(--blue-color);
     padding: .5rem;
-    border: var(--blue-color) inset;
     border-radius: 15px;
     
 }
 
-.priorities {
-    display: flex;
-    width: 95%;
-    height: 40%;
+.page-2-inner h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--blue-color);
+    margin-top: .8rem;
+    margin-bottom: .3rem;
+}
+
+.development-priorities {
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1rem;
+}
+
+.technologies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*  Page 3 */
+
+.page-3-heading {
+    height: 10vh;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--baby-powder-color);
+    background-color: var(--grey-color);
+    padding: 0.8rem 0rem 0.8rem 0rem;
+}
+
+.page-3-inner {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    background-color: var(--blue-color);
+    border:  var(--grey-color) 4px inset;
+}
+
+.image-container {
+    height: 205px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: .5rem;
-}
-
-.priority-icons {
-    flex: .3;
-    background-color: lightgray;
-    padding: .5rem;
-    border: var(--grey-color) 5px solid;
-    border-radius: 5px;
-}
-
-.priority-description {
-    flex: .7;
-    background-color: lightgray;
-    padding: .5rem;
-    border: var(--grey-color) 5px solid;
-    border-radius: 5px;
+    border: var(--grey-color) 5px inset;
 }
 
 
 
 
+
+/* Media Breakpoint Template */
+
+/* mobile styles */
+/* @media only screen and (min-width: 350px) {
+  
+} */
+/* tablet styles */
+/* @media only screen and (min-width: 550px) {
+ 
+} */
+/* desktop styles */
+/* @media only screen and (min-width: 800px) {
+  
+} */
