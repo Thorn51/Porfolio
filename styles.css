@@ -61,22 +61,21 @@ nav {
   }
 
   .hamburger {
-    position: absolute;
+    position: fixed;
     cursor: pointer;
-    right: 5%;
-    top: 50%;
-    transform: translate(-5%, -50%);
+    right: 1%;
+    top: 1%;
     z-index: 2;
   }
 
   .nav-links {
     position: fixed;
-    background: var(--grey);
+    background: linear-gradient(var(--blue), var(--black));
     height: 100vh;
     width: 100%;
     flex-direction: column;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 90% -10%);
+    clip-path: circle(60px at 100% 0%);
+    -webkit-clip-path: circle(60px at 100% 0%);
     transition: all 1s ease-out;
     pointer-events: none;
   }
@@ -114,3 +113,5 @@ nav {
   text-align: center;
   padding: 1rem;
 }
+
+/* About Section */
