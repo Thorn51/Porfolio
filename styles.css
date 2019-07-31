@@ -115,3 +115,29 @@ nav {
 }
 
 /* About Section */
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(var(--grey) 50%, var(--blue));
+}
+
+.about-grid {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.about-image img {
+  width: 100%;
+  margin: 5%;
+  padding: 0.5rem;
+}
+
+.about-text {
+  margin: 5%;
+  padding: 0.5rem;
+  color: var(--white);
+}
