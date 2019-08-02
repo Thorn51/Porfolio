@@ -1,6 +1,6 @@
 Overall, the site:
-    - is responsive from 320px to 1600px width screens with a mobile-first design
-    - is built with semantic, valid markup
+    - is responsive from 320px to 1600px width screens with a mobile-first design @done
+    - is built with semantic, valid markup 
     - is built from scratch, without templates
     - has no typos or grammatical errors
     - is easy to read and navigate
