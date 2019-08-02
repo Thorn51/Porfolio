@@ -260,21 +260,22 @@ article h3 {
   flex-direction: column;
   padding-bottom: 2rem;
   height: 90vh;
-  background: grey;
+  background: var(--grey);
+  color: var(--white);
 }
 
 .contact-content {
   align-self: center;
   padding: 0.5rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 form {
   background: var(--blue-overlay);
   border: inset 2px var(--grey);
-  padding: 1rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 form ul {
@@ -284,7 +285,7 @@ form ul {
 input {
   width: 100%;
   margin-bottom: 0.75rem;
-  height: 35px;
+  height: 30px;
   border: 4px inset var(--grey);
 }
 
@@ -295,7 +296,7 @@ textarea {
 }
 
 .send-button {
-  height: 70px;
+  height: 50px;
   cursor: pointer;
   margin-top: 1rem;
   font-size: 1.5rem;
