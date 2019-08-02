@@ -6,6 +6,7 @@
   --black: rgba(2, 17, 27, 1);
   --light-grey: rgba(93, 115, 126, 0.5);
   --blue-overlay: rgba(21, 57, 96, 0.5);
+  --black-overlay: rgba(2, 17, 27, 0.9);
 }
 /* Gobal */
 
@@ -49,11 +50,10 @@ nav {
 .nav-links {
   display: flex;
   list-style: none;
-  width: 50%;
+  width: 30%;
   height: 100%;
   justify-content: space-around;
   align-items: center;
-  margin-left: auto;
 }
 
 .nav-links li a {
@@ -80,7 +80,7 @@ nav {
 
   .nav-links {
     position: fixed;
-    background: linear-gradient(var(--blue), var(--black));
+    background: var(--black-overlay);
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -107,7 +107,7 @@ nav {
     ". hero hero ."
     " . hero hero .";
   height: 90vh;
-  background: linear-gradient(var(--blue) 90%, var(--grey));
+  background: var(--blue);
 }
 
 .hero {
@@ -130,7 +130,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   padding-bottom: 2rem;
-  background: linear-gradient(var(--grey) 90%, var(--blue));
+  background: var(--grey);
 }
 
 .about-grid {
@@ -181,8 +181,9 @@ nav {
 .projects-wrapper {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(var(--blue) 90%, var(--grey));
+  background: var(--blue);
   color: white;
+  border: 2px inset var(--grey);
 }
 
 .projects-content {
@@ -212,6 +213,13 @@ article {
   border: inset 2px var(--grey);
   padding: 1rem;
   margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+article ul {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .project-image {
@@ -270,6 +278,10 @@ article h3 {
   margin-top: 0.5rem;
 }
 
+.contact-content h1 {
+  margin-bottom: 3rem;
+}
+
 form {
   background: var(--blue-overlay);
   border: inset 2px var(--grey);
@@ -322,7 +334,7 @@ address p {
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 10vh;
   color: var(--white);
@@ -353,13 +365,29 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     height: 75px;
+    border: 2px inset var(--grey);
+  }
+
+  .nav-links {
+    width: 60%;
+  }
+
+  .nav-links li a:hover {
+    color: var(--orange);
   }
 
   .header-wrapper {
     height: 100vh;
   }
   .page-header {
-    visibility: hidden;
+    background: none;
+    border: none;
+    justify-content: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    border-bottom: 1px ridge var(--orange);
   }
 
   .about-grid,
@@ -376,6 +404,14 @@ footer {
   .about-grid,
   .projects-content,
   .contact-content {
+    width: 50%;
+  }
+
+  .nav-links {
+    width: 50%;
+  }
+
+  .page-header {
     width: 50%;
   }
 }
