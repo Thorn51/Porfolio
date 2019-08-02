@@ -23,7 +23,7 @@ The Project section:
 Each project includes:
     - the title of your project @done
     - a description that explains what the app does, who it’s for, and why you built it (this text should not be hidden behind a hover or click event) @done
-    - a list of skills/technology used (i.e. Node, Express, PostgreSQL, React)
+        - a list of skills/technology used (i.e. Node, Express, PostgreSQL, React) @done
     - compelling screenshots @done
     - a link to GitHub repo @done
     - a link to the live, working app @done
