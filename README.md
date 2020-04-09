@@ -2,7 +2,10 @@
 
 ## Full-stack Developer
 
-I am a full-stack web developer, lifelong student, and creative problem solver. I am committed to designing and developing excellent user experiences.
+I am a full-stack developer, lifelong student, and creative
+problem solver. To me, coding is a magical place where creativity and logic converge to give life to ideas and dreams.
+  
+When I'm not deep into a project I want to be outside in the sun. I love to explore the Rocky Mountains, cycle, and get my dog outside for long walks.
 
 ## Toolbox
 
@@ -12,3 +15,5 @@ I am a full-stack web developer, lifelong student, and creative problem solver. 
 - JavaScript
 - HTML
 - CSS
+
+## Projects
