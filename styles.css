@@ -182,17 +182,17 @@ nav {
 }
 
 .trail_explorer_image {
-  background-image: url("/assets/images/explorer-screenshot.png");
+  background-image: url("/images/explorer-screenshot.png");
   background-size: contain;
 }
 
 .incubator_image {
-  background-image: url("/assets/images/homepage-post-login.png");
+  background-image: url("/images/homepage-post-login.png");
   background-size: contain;
 }
 
 .nps_image {
-  background-image: url("/assets/images/homepage.png");
+  background-image: url("/images/homepage.png");
   background-size: contain;
 }
 
