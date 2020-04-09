@@ -187,12 +187,12 @@ nav {
 }
 
 .incubator_image {
-  background-image: url("/assets/images/homepage-post-login.PNG");
+  background-image: url("/assets/images/homepage-post-login.png");
   background-size: contain;
 }
 
 .nps_image {
-  background-image: url("/assets/images/homepage.PNG");
+  background-image: url("/assets/images/homepage.png");
   background-size: contain;
 }
 
